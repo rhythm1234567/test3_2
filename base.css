@@ -30,6 +30,7 @@ body {
     justify-content: space-between;
 
     padding-top: 10%;
+
     padding-bottom: 20%;
 }
 
@@ -145,6 +146,9 @@ h3 {
     }
     #content{
         padding-top: 20%;
+    }
+    #head{
+        height: 13%;
     }
 
 
