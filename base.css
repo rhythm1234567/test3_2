@@ -75,17 +75,23 @@ img {
 }
 
 
-
+#right{
+      margin-right: 280px; 
+      width: 200px;
+      float: right; 
+      padding: 0;
+}
 
 #head ul {
-    margin-right: 280px;
-    width: 200px;
-    float: right;
-    list-style: none;
+  
     display: flex;
-    padding: 0;
+    
+    list-style: none;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    
+    
 
 }
 
@@ -192,7 +198,7 @@ h3 {
 
 @media screen and (max-width: 970px) {
 
-    #head ul {
+    #right {
         width: 200px;
         margin-right: 450px;
     }
